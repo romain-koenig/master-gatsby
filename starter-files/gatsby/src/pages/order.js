@@ -5,11 +5,11 @@ import Nav from '../components/Nav';
 // Le composant Gatsby va être une simple fonction qui retourne un élément HTML
 
 // ES6 module : on peut l'exporter par défaut à la définition
-export default function HomePage() {
+export default function OrderPage() {
   return (
     <div>
       <Nav />
-      <p>Hey! This is the Home Page</p>
+      <p>Hey! This is the Order Page</p>
     </div>
   );
 }
