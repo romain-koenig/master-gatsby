@@ -6,19 +6,22 @@ export default function Nav() {
     <nav>
       <ul>
         <li>
-          <Link to="/">Homepage</Link>
+          <Link to="/">Hot now</Link>
         </li>
         <li>
           <Link to="/beers">Beers</Link>
         </li>
         <li>
-          <Link to="/pizzas">Pizzas</Link>
+          <Link to="/pizzas">Pizza Menu</Link>
         </li>
         <li>
-          <Link to="/order">Order</Link>
+          <Link to="/">LOGO</Link>
         </li>
         <li>
           <Link to="/slicemasters">Slicemasters</Link>
+        </li>
+        <li>
+          <Link to="/order">Order</Link>
         </li>
       </ul>
     </nav>
